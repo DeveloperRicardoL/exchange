@@ -11,7 +11,19 @@
     <title>Rick exchange</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="container">
+      <h1>Rick exchange</h1>
+      <h2>Ingrese los pesos Argentinos que desea convertir:</h2>
+      <form action="formulario">
+        <input
+          type="number"
+          id="TxtIngreso"
+          placeholder="Ingresar la cantidad a convertir"
+        />
+        <button type="button" id="BtnConvertir">Convertir</button>
+      </form>
+      <h3 id="LblMostrar"></h3>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
