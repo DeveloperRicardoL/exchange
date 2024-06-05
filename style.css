@@ -2,3 +2,9 @@ body {
   background-color: brown;
   color: aliceblue;
 }
+
+.grafico {
+  background-color: white;
+  width: 30rem;
+  padding: auto;
+}
