@@ -1,10 +1,68 @@
 body {
-  background-color: brown;
+  background-color: black;
   color: aliceblue;
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  background-color: white;
+  color: black;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  border-radius: 40px 8px 40px 8px;
+  -webkit-border-radius: 40px 8px 40px 8px;
+  -moz-border-radius: 40px 8px 40px 8px;
+  background: #ffffff;
+  border: 5px solid #28ab1f;
+  padding: 0.75rem;
+  margin-top: 10px;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
 }
 
 .grafico {
   background-color: white;
+  border-radius: 8px;
   width: 30rem;
   padding: auto;
+}
+.frm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#TxtIngreso {
+  border-radius: 8px;
+  border: 4px solid rgb(27, 150, 62);
+  width: 30rem;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 17px;
+}
+#BtnConvertir {
+  background-color: rgb(3, 130, 9);
+  color: white;
+  box-shadow: 3px 3px 0px 0px rgba(195, 195, 195, 0.75);
+  -webkit-box-shadow: 3px 3px 0px 0px rgba(195, 195, 195, 0.75);
+  -moz-box-shadow: 3px 3px 0px 0px rgba(195, 195, 195, 0.75);
+  border-radius: 8px;
+  width: 30.8rem;
+  padding: 0.4rem;
+  font-size: 17px;
+}
+
+.resp {
+  width: 30rem;
+  font-size: 20px;
 }

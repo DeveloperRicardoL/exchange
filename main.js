@@ -69,6 +69,6 @@ const iniciarChart = async () => {
 iniciarChart();
 
 boton.addEventListener("click", async () => {
-  resp.innerHTML = `Sus ${montoIngresado()} pesos Argentinos💵 son iguales a ${await calcularEuros()} Euros💶 o en Dolar Blue son iguales a ${await calcularDolarBlue()} Dolares💵​`;
+  resp.innerHTML = `Sus ${montoIngresado()} pesos Argentinos💵 son iguales a : ${await calcularEuros()} Euros💶 o en Dolar Blue son iguales a : ${await calcularDolarBlue()} Dolares💵​`;
   document.getElementById("TxtIngreso").value = "";
 });
